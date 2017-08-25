@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:background="@color/colorPrimary"
+    android:elevation="@dimen/elevation_height_normal"
+    android:padding="@dimen/padding">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/search_layout_height"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@+id/iv_search"
+        android:background="@drawable/bg_search_layout">
+
+        <EditText
+
+            android:singleLine="true"
+            android:background="@null"
+            android:textSize="@dimen/text_size_normal"
+            android:gravity="center"
+            android:hint="@string/search_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_search"
+        style="@style/ImageView"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/ic_search_48"
+        android:tint="@android:color/black" />
+</RelativeLayout>

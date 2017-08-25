@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:background="?colorPrimary"
+    android:padding="@dimen/padding"
+    app:layout_scrollFlags="scroll|enterAlways"
+
+    >
+
+    <facefoo.top.a500px.widget.CircleImageView
+        android:id="@+id/iv_user"
+        style="@style/ImageView"
+        android:src="@mipmap/ic_me_48" />
+
+
+    <ImageView
+        android:id="@+id/iv_search"
+        style="@style/ImageView"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/ic_search_48"
+        android:tint="@android:color/black" />
+
+
+</RelativeLayout>

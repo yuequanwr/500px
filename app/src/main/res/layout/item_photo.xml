@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/tools"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:transitionName="PHOTO"
+        android:id="@+id/item_photo_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop" />
+
+
+
+        <TextView
+            android:layout_margin="@dimen/margin"
+            android:layout_gravity="bottom|left"
+            android:id="@+id/item_photo_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_small" />
+
+        <facefoo.top.a500px.widget.CircleImageView
+            android:layout_margin="@dimen/margin"
+            android:id="@+id/item_photo_ic"
+            android:layout_width="@dimen/ic_size"
+            android:layout_height="@dimen/ic_size"
+            android:layout_gravity="bottom|right"
+          />
+
+
+
+</FrameLayout>

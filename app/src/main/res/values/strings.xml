@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">500px</string>
+
+    <!--toolbar 菜单-->
+    <string name="tab_search">搜索</string>
+    <string name="tab_classify">分类</string>
+    <string name="search_content">搜个关键词看看？</string>
+    <string name="set_wallpaper_success">已设置</string>
+    <string name="set_wallpaper_failed">设置失败</string>
+
+
+    <string name="tag_user">USER</string>
+    <string name="tag_author">PHOTO</string>
+    <string name="title_activity_author">AuthorActivity</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="follow">关注</string>
+    <string name="followed">已关注</string>
+
+
+</resources>

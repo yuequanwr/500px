@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+ <include layout="@layout/layout_user_detail"
+     android:id="@+id/photo_detail"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#000000" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+
+        <TextView
+            android:id="@+id/detail_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="15dp"
+            android:text="详情"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/photo_detail_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="15dp"
+            android:drawablePadding="15dp"
+            android:textSize="12sp"/>
+        <TextView
+            android:drawablePadding="15dp"
+            android:id="@+id/photo_detail_rating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:padding="15dp"
+            android:textSize="12sp"/>
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item-->
+        <!--android:id="tab_search"-->
+        <!--android:icon="@mipmap/ic_search_48"-->
+        <!--android:title="@string/tab_search"-->
+        <!--app:showAsAction="ifRoom" />-->
+    <!--<item-->
+        <!--android:id="tab_classify"-->
+        <!--android:title="@string/tab_classify"-->
+        <!--android:icon="@mipmap/ic_search_48"-->
+        <!--app:showAsAction="ifRoom"/>-->
+</menu>
